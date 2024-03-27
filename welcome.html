@@ -4,79 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to NoteSnap</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: url(bg.jpg) no-repeat center center fixed;
-            background-size: 100% 100%; 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            top: 22px;
-            width: 100%;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 5px 7px 20px 3px rgb(0 0 0 / 15%);
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-            line-height: 1.6;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link your custom CSS file here -->
 </head>
 <body>
     <div class="container">
-        <div style="display: flex; gap: 3vh; margin-bottom: 2vh;">
-            <div> <img src="icon-48.png" alt=""> </div>
-            <div><h1>Welcome to NoteSnap</h1></div>
+        <div class="header">
+            <img src="icon-48.png" alt="NoteSnap Logo" width="48" height="48">
+            <h1>Welcome to NoteSnap</h1>
         </div>
-        <p>NoteSnap is a Chrome extension that simplifies note-taking by providing a convenient way to capture and organize your thoughts, ideas, and important information.</p>
         
-        <h2>Key Features</h2>
-        <ul>
-            <li>Effortless Note-taking: Create and organize notes seamlessly with a user-friendly interface.</li>
-            <li>Customizable Options: Customize your note-taking experience with various font styles and sizes.</li>
-            <li>Accessible Anywhere: Access your notes from any device with Chrome installed.</li>
-            <li>Automatic Sync: Your notes are automatically synchronized across devices for convenience.</li>
-            <li>Secure and Private: Rest assured that your notes are stored securely and privately.</li>
-        </ul>
-        
-        <h2>Getting Started</h2>
-        <ol>
-            <li>Install NoteSnap from the Chrome Web Store.</li>
-            <li>Click on the extension icon in the Chrome toolbar to start taking notes.</li>
-            <li>Customize your note-taking experience by adjusting font styles and sizes.</li>
-            <li>Organize your notes effortlessly and stay productive!</li>
-        </ol>
-
-        <h2>Installation</h2>
-        <p>You can install NoteSnap directly from the <a href="https://chrome.google.com/webstore/detail/notesnap/your-extension-id-here">Chrome Web Store</a>.</p>
-
-        <h2>Feedback</h2>
-        <p>We value your feedback! If you have any suggestions, ideas, or feature requests, please feel free to <a href="#">contact us</a>.</p>
-
-        <h2>About</h2>
-        <p>NoteSnap is developed by [Your Company Name], a team passionate about creating tools to enhance productivity and creativity.</p>
-
-        <h2>Privacy Policy</h2>
-        <p>Our privacy policy outlines how we collect, use, and protect your personal information. To learn more, please read our <a href="#">Privacy Policy</a>.</p>
+        <div class="content">
+            <p>NoteSnap is a Chrome extension that allows you to easily capture and save notes from any webpage. Whether you're jotting down ideas, saving important information, or bookmarking interesting content, NoteSnap simplifies the note-taking process right from your browser.</p>
+            
+            <h2>Key Features</h2>
+            <ul>
+                <li>Quick Note Capture</li>
+                <li>Flexible Formatting</li>
+                <li>Effortless Management</li>
+                <li>Persistent Storage</li>
+                <li>Lightweight and Responsive</li>
+            </ul>
+            
+            <h2>How to Use</h2>
+            <ol>
+                <li>Install NoteSnap from the Chrome Web Store.</li>
+                <li>Click on the NoteSnap icon in the Chrome toolbar to access the popup interface.</li>
+                <li>Write or paste your note in the text area.</li>
+                <li>Click the "Save Note" button to save your note.</li>
+                <li>Manage your notes using the edit, copy, and delete options available for each note.</li>
+            </ol>
+            
+            <h2>Installation</h2>
+            <p>You can install NoteSnap directly from the <a href="https://chrome.google.com/webstore/detail/notesnap/your-extension-id-here">Chrome Web Store</a>.</p>
+            
+            <h2>Developer</h2>
+            <p>NoteSnap is developed by <a href="https://github.com/sinjithms">sinjith</a>, a passionate developer dedicated to creating innovative solutions to enhance productivity and convenience.</p>
+            
+            <h2>Donate</h2>
+            <p>If you find NoteSnap useful and would like to support its development, consider buying me a coffee on <a href="https://ko-fi.com/sinjith">Ko-fi</a>.</p>
+        </div>
     </div>
 </body>
 </html>
