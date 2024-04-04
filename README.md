@@ -20,7 +20,7 @@ NoteSnap is a Chrome extension that allows you to easily capture and save notes 
 
 ## Installation
 
-You can install NoteSnap directly from the [Chrome Web Store](https://chrome.google.com/webstore/detail/notesnap/your-extension-id-here).
+You can install NoteSnap directly from the [Chrome Web Store](https://chrome.google.com/webstore/detail/notesnap/jbfdabeacnfmiabahcfeigdlimagdbmm).
 
 ## Developer
 
