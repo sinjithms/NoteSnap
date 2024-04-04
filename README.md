@@ -28,8 +28,7 @@ NoteSnap is developed by [sinjith](https://github.com/sinjithms), a passionate d
 
 ## Donate
 
-If you find NoteSnap useful and would like to support its development, consider buying me a coffee on [Ko-fi](https://ko-fi.com/sinjith).
-
+If you find NoteSnap useful and would like to support its development, consider buying me a coffee on (https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/sinjith)
 ## Contributions
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/sinjithms/NoteSnap).
